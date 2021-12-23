@@ -1,0 +1,27 @@
+.not-found-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: black;
+}
+.h6 {
+  color: #0f0f0f;
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+}
+
+p {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.not-found-img {
+  max-height: 60vh;
+  margin: 10px;
+}
