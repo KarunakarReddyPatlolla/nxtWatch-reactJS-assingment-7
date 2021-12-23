@@ -130,10 +130,10 @@ class GamingBody extends Component {
       <YoutubeContext.Consumer>
         {value => {
           const {isTheme} = value
-          const bgColor = isTheme ? '#181818' : '#ffffff'
+          const bgColor = isTheme ? '#0f0f0f' : '#ffffff'
           const color = isTheme ? '#ffffff' : null
           return (
-            <GameMainDiv bgColor={bgColor} color={color}>
+            <GameMainDiv bgColor={bgColor} color={color} data-testid="gaming">
               <div className="searchDiv1">
                 <SiYoutubegaming className="icons1" />
                 <h1>Gaming</h1>

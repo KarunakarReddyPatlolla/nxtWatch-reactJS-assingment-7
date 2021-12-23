@@ -132,7 +132,7 @@ class TrendingBody extends Component {
       <YoutubeContext.Consumer>
         {value => {
           const {isTheme} = value
-          const bgColor = isTheme ? '#181818' : '#ffffff'
+          const bgColor = isTheme ? '#0f0f0f' : '#ffffff'
           const color = isTheme ? '#ffffff' : null
           return (
             <TrendingMainDiv

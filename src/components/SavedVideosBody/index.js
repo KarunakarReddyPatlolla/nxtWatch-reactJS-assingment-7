@@ -17,7 +17,7 @@ class SavedVideosBody extends Component {
     <YoutubeContext.Consumer>
       {value => {
         const {savedItems, isTheme} = value
-        const bgColor = isTheme ? '#181818' : '#ffffff'
+        const bgColor = isTheme ? '#0f0f0f' : '#ffffff'
         const color = isTheme ? '#ffffff' : null
         if (savedItems.length !== 0) {
           return (
